@@ -14,8 +14,7 @@
 
 ## Installation
 
-- Add [`batch.kak`](rc/batch.kak) to your autoload or source it manually.
-- Add [`:batch`](config/kak/connect/commands/:batch) to your connect path.
+Add [`batch.kak`](rc/batch.kak) to your autoload or source it manually.
 
 ## Usage
 
