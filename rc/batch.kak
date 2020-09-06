@@ -10,5 +10,3 @@ provide-module batch %{
     > :batch
   }
 }
-
-require-module batch

@@ -16,6 +16,10 @@
 
 Add [`batch.kak`](rc/batch.kak) to your autoload or source it manually.
 
+``` kak
+require-module batch
+```
+
 ## Usage
 
 To rename and drop buffers from the buffer list, simply run `:batch` from Kakoune or a shell.
