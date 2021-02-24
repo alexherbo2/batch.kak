@@ -8,18 +8,14 @@
 ## Dependencies
 
 - [Batch]
-- [connect.kak]
+- [kakoune.cr]
 
-[connect.kak]: https://github.com/alexherbo2/connect.kak
+[kakoune.cr]: https://github.com/alexherbo2/kakoune.cr
 
 ## Installation
 
-Add [`batch.kak`](rc/batch.kak) to your autoload or source it manually.
-
-``` kak
-require-module batch
-```
+Add [`kcr-batch`](bin/kcr-batch) to your path.
 
 ## Usage
 
-To rename and drop buffers from the buffer list, simply run `:batch` from Kakoune or a shell.
+To rename and drop buffers from the buffer list, simply run `kcr batch` from a terminal.

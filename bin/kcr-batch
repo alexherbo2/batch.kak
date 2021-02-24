@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Rename and drop buffers from the buffer list.
+#
+# Usage:
+#
+# kcr batch
+
+map='
+  rename "$1" "$2"
+  kcr send -- evaluate-commands -buffer "$1" rename-buffer "$2"
+'
+
+drop='
+  kcr send -- delete-buffer "$1"
+'
+
+kcr get --raw %val{buflist} | batch --editor kak --map "$map" --drop "$drop"
