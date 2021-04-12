@@ -15,4 +15,4 @@ drop='
   kcr send -- delete-buffer "$1"
 '
 
-kcr get --raw %val{buflist} | batch --editor kak --map "$map" --drop "$drop"
+kcr get --raw --value buflist | batch --editor kak --map "$map" --drop "$drop"
